@@ -1,0 +1,21 @@
+{
+  "name": "euclid-heath",
+  "description": "Euclid's Elements in Thomas Heath's translation (Cambridge, 1908), all thirteen books, Euclid's text alone, cleaned to ASCII plain text for character-level language modelling.",
+  "source": {
+    "name": "Perseus Digital Library, The Thirteen Books of Euclid's Elements (Heath), TEI XML",
+    "repository": "https://github.com/PerseusDL/canonical-greekLit",
+    "path": "data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml",
+    "commit": "70427323b61267cdcd0256b9b02009c23392de07",
+    "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/70427323b61267cdcd0256b9b02009c23392de07/data/tlg1799/tlg001/tlg1799.tlg001.perseus-eng2.xml",
+    "sha256_of_raw_xml": "b41068f265202520a6c3dccb512b258a01b298be6004763cb92057ccd50802a8",
+    "catalog": "https://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1799.tlg001.perseus-eng1",
+    "license": "Euclid (c. 300 BC) and Heath's translation (first published 1908; Heath died 1940) are in the public domain. Perseus's TEI text is released under CC BY-SA 4.0; the cleaned text is adapted from it and released under the same licence (LICENSE-TEXT.md)."
+  },
+  "version": "2026-10-09",
+  "maintainer": "davidbarkhuizen",
+  "format": "plain text, ASCII, a paragraph per line",
+  "files": [
+    "data/euclid-heath.txt"
+  ],
+  "built_by": "clean.py"
+}
